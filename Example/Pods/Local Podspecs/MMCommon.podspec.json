@@ -1,0 +1,22 @@
+{
+  "name": "MMCommon",
+  "version": "0.1.0",
+  "summary": "A short description of MMCommon.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/machacker16/MMCommon",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "machacker16": "machacker16@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/machacker16/MMCommon.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMCommon/Classes/**/*"
+}

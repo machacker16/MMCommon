@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMCommon_Example' do
+  pod 'MMCommon', :path => '../'
+
+  target 'MMCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
