@@ -1,6 +1,6 @@
 {
   "name": "MMCommon",
-  "version": "0.1.0",
+  "version": "1.0",
   "summary": "A short description of MMCommon.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/machacker16/MMCommon",
@@ -13,10 +13,26 @@
   },
   "source": {
     "git": "https://github.com/machacker16/MMCommon.git",
-    "tag": "0.1.0"
+    "tag": "1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "MMCommon/Classes/**/*"
+  "swift_versions": "4.2",
+  "source_files": "MMCommon/Classes/**/*",
+  "resource_bundles": {
+    "MMCommon": [
+      "MMCommon/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.swift",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "PureLayout": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
 }
